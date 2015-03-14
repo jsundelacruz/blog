@@ -1,0 +1,18 @@
+/**
+ * work-div
+ */
+
+.work-div {
+  height: 100%;
+  max-width: 100%;
+}
+
+.work-content {
+  height: 100%;
+}
+
+@media screen and (max-width: 1025px) {
+  .work-content {
+    height: 50%;
+  }
+}

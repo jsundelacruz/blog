@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "authors": [
+    "christoffer-Van <me@christofferjohansen.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/_bower_components",
+    "test",
+    "tests"
+  ]
+}
