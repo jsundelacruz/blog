@@ -10,6 +10,10 @@ $(document).ready(function() {
     $("#svg_real_logo").fadeIn(500);
   }, 2000);
 
+  // $(function() {
+  //     var BV = new $.BigVideo();
+  //     BV.init();
+  //     BV.show('https://player.vimeo.com/video/14352658',{ambient:true});
+  // });
 
 });
-

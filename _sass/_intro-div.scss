@@ -7,14 +7,14 @@ html, body, .full-height  {
 }
 
 .intro-div {
-  background-color: darkgrey;
+  background-color: #e6e2af;
   height: 100%;
   max-width: 100%;
-  background: url(/css/img/bg.jpeg) no-repeat center center;
+ /* background: url(/css/img/bg.jpeg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 #intro-div-text {
@@ -26,17 +26,16 @@ html, body, .full-height  {
   align-items: center;
     h1 {
         margin: 15px auto 0 auto;
-        color: white;
+        color: #002f2f;
         text-align: center;
         font-family: 'Playfair Display SC', serif;
       }
 }
 
 #intro-contact nav a {
-  color: white;
+  color: #046380;
   font-family: 'Fauna One', serif;
   text-decoration: none;
-  color: rgba(255,255,255, .8)
 }
 
 #svg_holder {
