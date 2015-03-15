@@ -6,6 +6,8 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <link href='http://fonts.googleapis.com/css?family=Fauna+One|Playfair+Display+SC:400,700' rel='stylesheet' type='text/css'>
+
   <!-- foundation css -->
   <link rel="stylesheet" type="text/css" href="{{ "/css/bower_components/foundation/css/foundation.css" | prepend: site.baseurl }}">
   <!-- jquery rain sidemenu -->
