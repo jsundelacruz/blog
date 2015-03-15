@@ -19,7 +19,7 @@ html, body, .full-height  {
 
 #intro-div-text {
   position: absolute;
-  top: 35%;
+  top: 38%;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -37,6 +37,12 @@ html, body, .full-height  {
     }
 }
 
+#intro-contact nav a {
+  color: white;
+  font-family: 'Fauna One', serif;
+  text-decoration: none;
+}
+
 #svg_holder {
    width: 60px;
    height: 60px;
@@ -44,4 +50,13 @@ html, body, .full-height  {
 
 #svg_logo, #svg_real_logo { 
   position: absolute;
+}
+
+
+@media screen and (max-width: 435px) {
+  #intro-contact nav a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
 }

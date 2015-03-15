@@ -186,16 +186,16 @@
 			var default_option = {
 				items: [],
 				display: 'block',
-				listContainerAnimationSpeed: "750ms",
-				textHoverSpeed: "1500ms",
-				onActivateSpeed: "1500ms",
-				color: "black",
+				listContainerAnimationSpeed: "500ms",
+				textHoverSpeed: "1000ms",
+				onActivateSpeed: "1000ms",
+				color: "#fff",
 				changeUrl: true,
 				activeBorderColor: "",
 				inactiveBorderColor: "",
 				borderColor: "white",
 				borderWidth: 1,
-				activeFill: "rgba(255, 255, 255, 1)",
+				activeFill: "rgba(35, 79, 123, 1)",
 				activePadding: "5px",
 				inactiveFill: "rgba(255, 255, 255, 0)",
 				inactivePadding: "3px",
@@ -224,7 +224,7 @@
 				position: 'right',
 				offsetTop: 0,
 				onAfterScroll: function(el) {},
-				stick: false,
+				stick: true,
 				hierarchical: true
 			};
 			var option = $.extend(true, default_option, opt);
