@@ -10,7 +10,14 @@ $(document).ready(function() {
     $("#svg_real_logo").fadeIn(500);
   }, 2000);
 
-  new Vivus('test', {type: 'oneByOne', duration: 120});
+
+  setInterval(function(){ 
+    $("#down-arrow").fadeOut(300) ;
+  }, 2000);
+
+  setInterval(function(){ 
+    $("#down-arrow").fadeIn(300) ;
+  }, 2000);
 
   // $(function() {
   //     var BV = new $.BigVideo();
