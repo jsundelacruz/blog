@@ -13,12 +13,12 @@
 .menuItems * {
 	box-sizing: border-box;
 	font-weight: inherit;
-	font-family: 'Fauna One', serif;
+	font-family: 'Exo', sans-serif;
 }
 
 .menuItems {
 	padding: 0 10px 0 0;
-	z-index: 1;
+	z-index: 9999;
 }
 
 .mi-position_right {

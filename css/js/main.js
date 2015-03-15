@@ -10,6 +10,8 @@ $(document).ready(function() {
     $("#svg_real_logo").fadeIn(500);
   }, 2000);
 
+  new Vivus('test', {type: 'oneByOne', duration: 120});
+
   // $(function() {
   //     var BV = new $.BigVideo();
   //     BV.init();
