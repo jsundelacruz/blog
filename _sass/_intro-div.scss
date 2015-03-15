@@ -30,17 +30,13 @@ html, body, .full-height  {
         text-align: center;
         font-family: 'Playfair Display SC', serif;
       }
-    h5 {
-      font-family: 'Fauna One', serif;
-      color: white;
-      text-align: center;
-    }
 }
 
 #intro-contact nav a {
   color: white;
   font-family: 'Fauna One', serif;
   text-decoration: none;
+  color: rgba(255,255,255, .8)
 }
 
 #svg_holder {
