@@ -29,19 +29,55 @@ jQuery(document).ready(function($){
 	}
 
 	//open/close primary navigation
-	$('.cd-primary-nav-trigger-custom').on('click', function(){
+	$('#work-trigger').on('click', function(){
 		$('.cd-menu-icon').toggleClass('is-clicked'); 
 		$('.cd-header').toggleClass('menu-is-open');
 		
 		//in firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
-		if( $('.cd-primary-nav').hasClass('is-visible') ) {
-			$('.cd-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+		if( $('#work-screen').hasClass('is-visible') ) {
+			$('#work-screen').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
 				$('body').removeClass('overflow-hidden');
 			});
 		} else {
-			$('.cd-primary-nav').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+			$('#work-screen').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
 				$('body').addClass('overflow-hidden');
 			});	
 		}
 	});
+
+		//open/close primary navigation
+	$('#about-trigger').on('click', function(){
+		$('.cd-menu-icon').toggleClass('is-clicked'); 
+		$('.cd-header').toggleClass('menu-is-open');
+		
+		//in firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
+		if( $('#about-screen').hasClass('is-visible') ) {
+			$('#about-screen').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+				$('body').removeClass('overflow-hidden');
+			});
+		} else {
+			$('#about-screen').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+				$('body').addClass('overflow-hidden');
+			});	
+		}
+	});
+
+		//open/close primary navigation
+	$('#contact-trigger').on('click', function(){
+		$('.cd-menu-icon').toggleClass('is-clicked'); 
+		$('.cd-header').toggleClass('menu-is-open');
+		
+		//in firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
+		if( $('#contact-screen').hasClass('is-visible') ) {
+			$('#contact-screen').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+				$('body').removeClass('overflow-hidden');
+			});
+		} else {
+			$('#contact-screen').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+				$('body').addClass('overflow-hidden');
+			});	
+		}
+	});
+
+
 });
