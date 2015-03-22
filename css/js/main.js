@@ -8,7 +8,7 @@ $(document).ready(function() {
   setTimeout( function(){
     $("#svg_logo").fadeOut(500);
     $("#svg_real_logo").fadeIn(500);
-  }, 2000);
+  }, 3000);
 
 
   setInterval(function(){ 
@@ -18,11 +18,5 @@ $(document).ready(function() {
   setInterval(function(){ 
     $("#down-arrow").fadeIn(300) ;
   }, 2000);
-
-  // $(function() {
-  //     var BV = new $.BigVideo();
-  //     BV.init();
-  //     BV.show('https://player.vimeo.com/video/14352658',{ambient:true});
-  // });
 
 });
