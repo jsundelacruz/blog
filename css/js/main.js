@@ -10,6 +10,10 @@ $(document).ready(function() {
     $("#svg_real_logo").fadeIn(500);
   }, 3000);
 
+  $(function() {
+    cbpBGSlideshow.init();
+  });
+
 
   setInterval(function(){ 
     $("#down-arrow").fadeOut(300) ;
