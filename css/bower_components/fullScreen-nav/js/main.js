@@ -29,7 +29,7 @@ jQuery(document).ready(function($){
 	}
 
 	//open/close primary navigation
-	$('#work-trigger').on('click', function(){
+	$('.work-trigger').on('click', function(){
 		$('.cd-menu-icon').toggleClass('is-clicked'); 
 		$('.cd-header').toggleClass('menu-is-open');
 		
@@ -46,7 +46,7 @@ jQuery(document).ready(function($){
 	});
 
 		//open/close primary navigation
-	$('#about-trigger').on('click', function(){
+	$('.about-trigger').on('click', function(){
 		$('.cd-menu-icon').toggleClass('is-clicked'); 
 		$('.cd-header').toggleClass('menu-is-open');
 		
@@ -63,7 +63,7 @@ jQuery(document).ready(function($){
 	});
 
 		//open/close primary navigation
-	$('#contact-trigger').on('click', function(){
+	$('.contact-trigger').on('click', function(){
 		$('.cd-menu-icon').toggleClass('is-clicked'); 
 		$('.cd-header').toggleClass('menu-is-open');
 		
