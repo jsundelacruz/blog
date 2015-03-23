@@ -46,9 +46,6 @@ html, body, .full-height  {
   margin-top: 10px;
 }
 
-#test {
-  left: 0;
-}
 
 #svg_holder {
    width: 60px;
@@ -59,3 +56,42 @@ html, body, .full-height  {
   position: absolute;
 }
 
+.screen-close a {
+  position: absolute;
+  color: #2C343B; 
+  top: 0;
+  right: 0;
+  padding: 10px;
+  font-family: 'Exo', sans-serif;
+  text-decoration: none;
+}
+
+#test, #test-inverse {
+  left: 0;
+}
+
+#test-inverse {
+  position: absolute;
+  top: 0;
+  padding: 10px;
+}
+
+
+.cd-primary-nav li a {
+  font-size: 2.5em;
+  color: #2C343B;
+  text-decoration: none;
+  font-family: 'Vollkorn', serif;
+  text-transform: uppercase;
+
+}
+
+#work-screen, #contact-screen, #about-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact-screen {
+  flex-direction: row;
+}
